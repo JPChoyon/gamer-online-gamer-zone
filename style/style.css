@@ -219,12 +219,13 @@
   margin-left: -60px;
 }
 
-/* gamer section start from here  */
+/* gamer list section start from here  */
 
 .gamer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   padding: 40px 85px;
 }
 .gamer-con {
